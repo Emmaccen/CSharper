@@ -21,6 +21,9 @@ namespace Csharp
             eventMaker.Run();
             // Extension Methods
             ExtensionMethods.StringExtension.RunExtensions();
+
+            //LINQS
+            LINQ.Linq.Run();
         }
     }
 
