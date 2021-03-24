@@ -18,6 +18,8 @@ namespace Csharp.Nullable
             string? gender = "prefer not to say";
             //gender = "Male";
             Console.WriteLine(gender);
+
+            string answer = gender ?? "None";
         }
 
     }

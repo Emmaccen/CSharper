@@ -27,6 +27,24 @@ namespace Csharp
 
             // NULLABLE
             Nullable.Nullable.Run();
+
+            // DYNAMIC
+            Dynamic.DynamicTypes.Run();
+
+            // EXCEPTION
+            try
+            {
+                 ExceptionHandler.ExceptionHandler.Run();
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine(ex.Message);
+            }
+
+            // ASYNC AWAIT
+
+            AsyncAwait.Asynchronos.Run();
         }
     }
 
